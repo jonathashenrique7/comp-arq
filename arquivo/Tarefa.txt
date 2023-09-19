@@ -1,0 +1,18 @@
+
+-> Estudo de caso: compartilhamento de arquivos para terceiros 
+
+1 ) Preciso compartilhar arquivos de log armazenados em um servidor de produção. 
+
+2 ) Os arquivos serão enviádos para um time de Dev's de uma empresa parceira. 
+
+3 ) Houveram problemas no passado, pois a senha do servidor foi compartilhada e 
+    existe a suspeita de vazamento de dados por meio deste server. 
+
+4 ) Premissas da tarefa : 
+
+    -> Acesso via ssh / RDP não é permitido
+    -> O acesso será disponibilizado somente pela rede interna 
+    -> O time de dev (terceiro) possui acesso a nossa rede via VPN 
+    -> O acesso deve ser somente de leitura 
+    -> Configurar SFTP não é permito ( ... )
+

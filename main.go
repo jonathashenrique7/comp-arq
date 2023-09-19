@@ -34,7 +34,7 @@ func main() {
 	log.Fatal(http.ListenAndServe(":"+porta, nil)) // Fazendo a referência do diretório para o "http"
 }
 
-// 1 ) Importante => Repare que na função "Dir()" eu informei um diretório de nome "arquivo-server"
+// 1 ) Importante => Repare que na função "Dir()" => Você vai digitar manualmente o caminho do diretório dos arquivos
 
 // 2 ) Nesta pasta irei lançar todos os arquivos que serão disponibilizados no servidor
 
